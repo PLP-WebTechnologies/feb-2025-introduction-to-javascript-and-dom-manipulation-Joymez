@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript DOM Manipulation</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>DOM Manipulation Example</h1>
+    </header>
+    <main>
+        <p id="text">Click the button to change this text.</p>
+        <button id="changeTextButton">Change Text</button>
 
-    <h1>Welcome to DOM Manipulation!</h1>
-    <p id="demo">This is a paragraph that will change.</p>
+        <p id="styledText">Click the button to change my style!</p>
+        <button id="changeStyleButton">Change Style</button>
 
-    <button onclick="changeText()">Change Text</button>
-
+        <div id="dynamicContent">
+            <button id="addElementButton">Add Element</button>
+            <button id="removeElementButton">Remove Element</button>
+        </div>
+    </main>
+    <footer>
+        <p>Made for assignment</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
